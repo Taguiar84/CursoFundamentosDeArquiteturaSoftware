@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "Modulo2\Fa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Modulo2\Adapter\Adapter.csproj", "{6F7F8EDD-EFFB-4B1C-B4D2-85FD680FC490}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Modulo2\Decorator\Decorator.csproj", "{3103B5FF-E9CF-4C60-9B41-FD53367D635D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{6F7F8EDD-EFFB-4B1C-B4D2-85FD680FC490}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F7F8EDD-EFFB-4B1C-B4D2-85FD680FC490}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F7F8EDD-EFFB-4B1C-B4D2-85FD680FC490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3103B5FF-E9CF-4C60-9B41-FD53367D635D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3103B5FF-E9CF-4C60-9B41-FD53367D635D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3103B5FF-E9CF-4C60-9B41-FD53367D635D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3103B5FF-E9CF-4C60-9B41-FD53367D635D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,5 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C65447A9-B18E-474E-A3CF-74D206C8B45F} = {0B1D52C6-1BD3-4F0B-965C-BF427ED534C9}
 		{6F7F8EDD-EFFB-4B1C-B4D2-85FD680FC490} = {0B1D52C6-1BD3-4F0B-965C-BF427ED534C9}
+		{3103B5FF-E9CF-4C60-9B41-FD53367D635D} = {0B1D52C6-1BD3-4F0B-965C-BF427ED534C9}
 	EndGlobalSection
 EndGlobal
