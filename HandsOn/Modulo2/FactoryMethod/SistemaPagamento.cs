@@ -9,6 +9,10 @@ namespace FactoryMethod
     {
         public Pagamento Pagamento { get; private set; }
 
+        /// <summary>
+        /// Factory Method
+        /// </summary>
+        /// <param name="pagamento"></param>
         public void RegistrarPagamento(Pagamento pagamento)
         {
             Pagamento = pagamento;
